@@ -2,7 +2,7 @@ package com.tirzah.controller;
 
 import com.tirzah.model.User;
 import com.tirzah.pojo.GenericResponse;
-import com.tirzah.security.AuthService;
+import com.tirzah.service.AuthService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

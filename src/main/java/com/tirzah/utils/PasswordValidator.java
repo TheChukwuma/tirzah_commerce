@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 
 @Configuration
 public class PasswordValidator {
-    public static boolean isValidPassword(String password) {
+    public boolean isValidPassword(String password) {
         // Check length requirement
         if (password.length() < 8) {
             return false;

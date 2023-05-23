@@ -1,4 +1,4 @@
-package com.tirzah.security;
+package com.tirzah.service;
 
 import com.tirzah.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
